@@ -4,11 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exam 2</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header class="flex justify-between p-6.25">
+    <header class="max-w-300 m-auto flex justify-between p-6.25 items-center">
         <img src="src/img/header/logo.png" alt="">
-        <i></i>
+        <nav class="hidden lg:flex gap-10 items-center">
+            <p>Главная</p>
+            <p>О нас</p>
+            <p>Калькулятор</p>
+            <p>Кейсы</p>
+        </nav>
+        <button class="hidden lg:flex gap-2 items-center py-3 px-5 bg-[#061B3A] text-white rounded-[5px]"><i class="fa-solid fa-phone"></i> Заказать звонок</button>
+        <i class="fa-solid fa-bars text-[24px] block lg:hidden!"></i>
     </header>
+
+    
 </body>
 </html>
